@@ -141,9 +141,13 @@ h1 {
 
 .message-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "card1 card2"
+    "card3 card3";
   gap: 22px;
   margin: 28px 0;
+  align-items: stretch;
 }
 
 .message-card,
