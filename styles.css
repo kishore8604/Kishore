@@ -150,6 +150,26 @@ h1 {
   align-items: stretch;
 }
 
+.card1{
+    grid-area: card1;
+}
+
+.card2{
+    grid-area: card2;
+}
+
+.card3{
+    grid-area:card3;
+
+    width:70%;
+
+    margin:auto;
+
+    text-align:center;
+
+    padding:35px;
+}
+
 .message-card,
 .promise-note {
   background: rgba(255, 253, 248, 0.86);
